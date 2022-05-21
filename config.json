@@ -1,0 +1,17 @@
+
+{
+    "params":
+    {
+        "local_server":"True",
+        "local_uri" : "mysql://root:@localhost/codingthunder",
+        "prod_uri" : "mysql://root:@localhost/codingthunder",
+        "fb_url" : "https://twitter.com/codingthunder",
+        "tw_url" : "https://facebook.com/",
+        "gh_url" : "https://github.com/codingthunder",
+
+        "no_of_posts": 10,
+        "admin_user": "rohit",
+        "admin_password": "rohit",
+        "upload_location": "C:\\Users\\ROHIT VERMA\\Desktop\\Rohit._visuals\\complete_web_development\\Backend Flask Tutorials\\uploading files in flask_17//static"
+    }
+}

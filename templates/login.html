@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block body %}
+ 
+    
+    
+  <form class="form-signin text-center " action="/dashboard" method="post">
+    <img class="mb-4" src="{{url_for('static', filename = '1234.jpg')}}" alt="" width="72" height="57">
+    <h1 class="h3 mb-3 fw-normal">ADMIN log-in</h1>
+
+    
+    <label for="uname">username</label>
+      <div >
+
+        <input type="text" name = "uname" class="form-control" id="uname" placeholder="username">
+      </div>
+    
+    
+      <label for="pass">Password</label>
+      <div>
+
+        <input type="password" class="form-control" name="pass" id="pass" placeholder="Password">
+      </div>
+  
+      <br>
+      <br>
+      <hr>
+
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+    <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+  </form>
+
+
+
+    
+
+{% endblock %}
